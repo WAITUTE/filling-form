@@ -1,0 +1,88 @@
+<div id="box">
+    <p id="head">MECHANICAL ENGINEEING VOTING</p>
+    
+</div>
+<div id="box2">
+    <label id="name1">Enter your name:</label>
+    <input  id="name"><br>
+    <label id="no1">Enter your registration no:</label>
+    <input  id="no"><br>
+    <label id="Onyi">Onyi</label>
+    <input type="radio" name="c" id="Onyi"><br>
+    <label id="Rotich">Rotich</label>
+    <input type="radio" name="c" id="Rotich"><br>
+    
+
+</div>
+<div id="box3">
+    <button id="submitBtn">submit</button>
+    <label id="result"></label>
+</div>
+
+#box{
+    text-align: center;
+    width: 590px;
+    height: 110px;
+}
+#head{
+    width: 590px;
+    height: 110px;
+    font-style: normal;
+    font-size: 50px;
+    background-color: rgb(223, 170, 240);
+}
+#name1{
+    text-align: center;
+    font-size: 30px;
+}
+#no1{
+    text-align: center;
+    font-size: 30px;
+}
+#box2{
+    background-color: rgb(204, 102, 224);
+    width: 590px;
+    height: 200px;
+
+}
+#Onyi{
+    font-size: 30px;
+}
+#Rotich{
+    font-size: 30px;
+    
+}
+#box3{
+    text-align: center;
+    background-color: rgb(204, 102, 224);
+    width: 590px;
+    height: 100px;
+    
+
+}
+#submitBtn{
+    
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+
+
+document.getElementById("submitBtn").onclick = function (){
+    let name = document.getElementById("name").Value;
+    let now = document.getElementById("no").Value;
+    now = Number(now);
+    onyii();
+    
+
+}
+function onyii(){
+    document.getElementById("Onyi").onclick = function(){
+        document.getElementById("result").innerHTML = `${name} "you vote Onyi"`
+    }
+}
+

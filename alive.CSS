@@ -1,0 +1,70 @@
+#box{
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.box{
+  width: 100%;
+  height: 100%;
+  left: 1.5%;
+  background: #0b5c5ce5;
+  position: relative;
+  border-radius: 40px;
+  text-align:  flex;
+}
+.box p{
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  padding: 20px 8%;
+  text-align: center;
+  text-decoration-line: underline;
+}
+.name{
+  position: relative;
+  left: 10%;
+}
+.name h1{
+  cursor: pointer;
+  left: 20%;
+}
+.name h2{
+  cursor: pointer;
+}
+.competitor{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 200;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.competitor .submit{
+  background: #2b6af1;
+  height: 30px;
+  width: 60px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  font-size: 15px;
+  cursor: pointer;
+  
+}
+.s{
+  width: 92%;
+
+  height: 35px;
+  padding: 11px 10px;
+  margin: 8px 0;
+
+  opacity: 0;
+  left: 2.5%;
+  position: relative;
+  border-radius: 40px;
+  align-items: center;
+  background: #066ee6;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 200;
+  font-family: 'Times New Roman', Times, serif;
+
+}
